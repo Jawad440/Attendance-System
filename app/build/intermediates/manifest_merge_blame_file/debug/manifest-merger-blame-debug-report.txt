@@ -1,0 +1,143 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.androidattendancesystem"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="14"
+8-->D:\Android-Attendance-App-master\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="26" />
+9-->D:\Android-Attendance-App-master\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->D:\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:6:5-70:19
+12        android:name="com.android.attendance.context.ApplicationContext"
+12-->D:\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:7:10-74
+13        android:allowBackup="true"
+13-->D:\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:8:9-35
+14        android:debuggable="true"
+15        android:icon="@drawable/ic_launcher"
+15-->D:\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:9:9-45
+16        android:label="@string/app_name"
+16-->D:\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:10:9-41
+17        android:testOnly="true"
+18        android:theme="@style/AppTheme" >
+18-->D:\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:11:9-40
+19        <activity
+19-->D:\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:12:9-20:20
+20            android:name="com.android.attendance.activity.MainActivity"
+20-->D:\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:13:13-72
+21            android:label="@string/app_name" >
+21-->D:\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:14:13-45
+22            <intent-filter>
+22-->D:\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:15:13-19:29
+23                <action android:name="android.intent.action.MAIN" />
+23-->D:\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:16:17-69
+23-->D:\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:16:25-66
+24
+25                <category android:name="android.intent.category.LAUNCHER" />
+25-->D:\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:18:17-77
+25-->D:\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:18:27-74
+26            </intent-filter>
+27        </activity>
+28        <activity
+28-->D:\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:21:10-24:20
+29            android:name="com.android.attendance.activity.LoginActivity"
+29-->D:\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:22:13-73
+30            android:label="@string/app_name" >
+30-->D:\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:23:13-45
+31        </activity>
+32        <activity
+32-->D:\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:25:10-28:20
+33            android:name="com.android.attendance.activity.MenuActivity"
+33-->D:\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:26:13-72
+34            android:label="@string/app_name" >
+34-->D:\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:27:13-45
+35        </activity>
+36        <activity
+36-->D:\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:29:10-32:20
+37            android:name="com.android.attendance.activity.AddFacultyActivity"
+37-->D:\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:30:13-78
+38            android:label="@string/app_name" >
+38-->D:\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:31:13-45
+39        </activity>
+40        <activity
+40-->D:\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:33:9-36:20
+41            android:name="com.android.attendance.activity.AddStudentActivity"
+41-->D:\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:34:13-78
+42            android:label="@string/app_name" >
+42-->D:\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:35:13-45
+43        </activity>
+44        <activity
+44-->D:\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:37:9-40:20
+45            android:name="com.android.attendance.activity.ViewFacultyActivity"
+45-->D:\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:38:13-79
+46            android:label="@string/app_name" >
+46-->D:\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:39:13-45
+47        </activity>
+48        <activity
+48-->D:\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:41:9-44:20
+49            android:name="com.android.attendance.activity.ViewStudentActivity"
+49-->D:\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:42:13-79
+50            android:label="@string/app_name" >
+50-->D:\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:43:13-45
+51        </activity>
+52        <activity
+52-->D:\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:45:9-48:20
+53            android:name="com.android.attendance.activity.TestActivity"
+53-->D:\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:46:13-72
+54            android:label="@string/app_name" >
+54-->D:\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:47:13-45
+55        </activity>
+56        <activity
+56-->D:\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:49:10-52:20
+57            android:name="com.android.attendance.activity.ViewStudentByBranchYear"
+57-->D:\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:50:13-83
+58            android:label="@string/app_name" >
+58-->D:\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:51:13-45
+59        </activity>
+60        <activity
+60-->D:\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:53:11-56:20
+61            android:name="com.android.attendance.activity.AddAttandanceSessionActivity"
+61-->D:\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:54:13-88
+62            android:label="@string/app_name" >
+62-->D:\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:55:13-45
+63        </activity>
+64        <activity
+64-->D:\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:57:10-60:20
+65            android:name="com.android.attendance.activity.AddAttendanceActivity"
+65-->D:\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:58:13-81
+66            android:label="@string/app_name" >
+66-->D:\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:59:13-45
+67        </activity>
+68        <activity
+68-->D:\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:61:10-64:20
+69            android:name="com.android.attendance.activity.ViewAttendanceByFacultyActivity"
+69-->D:\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:62:13-91
+70            android:label="@string/app_name" >
+70-->D:\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:63:13-45
+71        </activity>
+72        <activity
+72-->D:\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:65:10-68:20
+73            android:name="com.android.attendance.activity.ViewAttendancePerStudentActivity"
+73-->D:\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:66:13-92
+74            android:label="@string/app_name" >
+74-->D:\Android-Attendance-App-master\app\src\main\AndroidManifest.xml:67:13-45
+75        </activity>
+76
+77        <meta-data
+77-->[com.android.support:support-v4:26.1.0] C:\Users\Admin\.gradle\caches\transforms-3\8a9fb32864e411d4e7a1d1cd949623e0\transformed\support-v4-26.1.0\AndroidManifest.xml:26:9-28:38
+78            android:name="android.support.VERSION"
+78-->[com.android.support:support-v4:26.1.0] C:\Users\Admin\.gradle\caches\transforms-3\8a9fb32864e411d4e7a1d1cd949623e0\transformed\support-v4-26.1.0\AndroidManifest.xml:27:13-51
+79            android:value="26.1.0" />
+79-->[com.android.support:support-v4:26.1.0] C:\Users\Admin\.gradle\caches\transforms-3\8a9fb32864e411d4e7a1d1cd949623e0\transformed\support-v4-26.1.0\AndroidManifest.xml:28:13-35
+80        <meta-data
+80-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\Admin\.gradle\caches\transforms-3\77f46fb5c4028bdba1febe5fd57e4a48\transformed\runtime-1.0.0\AndroidManifest.xml:25:9-27:47
+81            android:name="android.arch.lifecycle.VERSION"
+81-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\Admin\.gradle\caches\transforms-3\77f46fb5c4028bdba1febe5fd57e4a48\transformed\runtime-1.0.0\AndroidManifest.xml:26:13-58
+82            android:value="27.0.0-SNAPSHOT" />
+82-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\Admin\.gradle\caches\transforms-3\77f46fb5c4028bdba1febe5fd57e4a48\transformed\runtime-1.0.0\AndroidManifest.xml:27:13-44
+83    </application>
+84
+85</manifest>
